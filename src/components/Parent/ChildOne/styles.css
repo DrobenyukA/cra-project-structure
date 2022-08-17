@@ -1,0 +1,6 @@
+.parent-child-one {
+    padding: var(--gutter);
+    border: 1px solid var(--danger-color);
+    background-color: var(--danger-background-color);
+    color: var(--danger-color);
+}
