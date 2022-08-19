@@ -86,3 +86,6 @@
 |    |     +-- index.ts
 
 ```
+
+### Constants folder
+As you can see there is no constants folder because of intersection with Node.js internal module [constants](https://github.com/nodejs/node-v0.x-archive/blob/master/lib/constants.js) package
