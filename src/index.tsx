@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import "index.css";
 import { App } from "components";
 import { store } from "state";
+import { MUIThemeProvider } from "styles";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -17,7 +18,9 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <App />
+        <MUIThemeProvider>
+          <App />
+        </MUIThemeProvider>
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
